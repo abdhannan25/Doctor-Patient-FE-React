@@ -1,0 +1,70 @@
+.body1{
+    width: 100vw;
+    height: 100vh;
+}    
+.body1::before{
+    content: "";
+    background-image: url("../images/carousel_picture1.png");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.6;
+}
+
+.logo{
+    padding-top: 5px;
+    height:75px;
+    width: auto;
+    
+}
+
+.register-form{
+    position: absolute;
+    width: 800px;
+    height: 520px;
+    left: 280px;
+    top: 100px;
+    padding: 10px 50px 10px 50px;
+    background: linear-gradient(269.89deg, #EDC7AC 0.08%, rgba(237, 199, 172, 0.51) 99.9%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.label{
+    font-weight:bold;
+    font-size: small;
+}
+
+#email,#fname,#lname,#dob,#phnum,#gender{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    padding: 3px 12px 3px 12px;
+    width: 330px;
+    border: none;
+}
+#height,#weight,#age{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    padding: 3px 12px 3px 12px;
+    width: 90px;
+    border: none;
+}
+
+.save{
+    text-align: right;
+}
+
+.report{
+    font-size: 14px;
+    justify-content: center;
+}
+.file{
+    border: none;
+    background:none;
+    margin-top: -11px ;
+    font-size: 25px;
+}

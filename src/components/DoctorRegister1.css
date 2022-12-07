@@ -1,0 +1,90 @@
+.body1{
+    width: 100vw;
+    height: 100vh;
+}    
+.body1::before{
+    content: "";
+    background-image: url("../images/carousel_picture1.png");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.6;
+}
+
+.logo{
+    padding-top: 5px;
+    height:75px;
+    width: auto;
+    
+}
+
+.register-form{
+    position: absolute;
+    width: 800px;
+    height: 560px;
+    left: 280px;
+    top: 80px;
+    padding: 10px 50px 10px 50px;
+    background: linear-gradient(269.53deg, rgba(237, 199, 172, 0.9) 0.36%, rgba(250, 240, 232, 0.9) 100.66%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.rows{
+    justify-content: center;
+    align-items: center;
+    padding: 0px 185px;
+}
+
+
+.image-upload{
+    background: #FFFFFF;
+    border-radius: 10px;
+    width:100px;
+    height: 100px;
+    padding: none;
+}
+ .image-show{
+    height: 75px;
+    padding: none;
+ }
+ .add-image{
+    border-top: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: none;
+ }
+
+ .image{
+    height: 75px;
+    width: 75px;
+ }
+ .file{
+    font-size: small;
+ }
+
+ .label{
+    font-weight:bold;
+    font-size: small;
+}
+
+#fname,#lname,#phnum,#gender,#cnic{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    padding: 3px 12px 3px 12px;
+    width: 330px;
+    border: none;
+}
+
+
+.next-btn{
+    background: #49BABD;
+    border-radius: 15px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    margin-left: 400px;
+}
